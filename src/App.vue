@@ -1,28 +1,45 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-app-bar
+      app
+      color="green"
+      dark
+      elevation="0"
+    >
+      <div class="d-flex align-center">
+        <h3>Front-end Roadmap Lars</h3>
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        href="https://www.larsvansusteren.nl"
+        target="_blank"
+        text
+      >
+        <span class="mr-2">larsvansusteren.nl</span>
+        <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-main>
+      <Roadmap/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Roadmap from './components/Roadmap';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    Roadmap,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
