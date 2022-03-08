@@ -2,6 +2,16 @@
   <v-container>
     <v-row>
       <v-col cols="12">
+        Goals 2022:
+        <ul>
+          <li>Forms and validations</li> <!-- on roadmap -->
+          <li>Vue Store (State management using Vuex)</li>
+          <li>AJAX calls (Vue Axios)</li> <!-- on roadmap -->
+          <li>Typescript</li>
+          <li>TMap test plan</li>
+          <li>Splunk</li>
+          <li>AWS certificate</li>
+        </ul>
         <v-timeline class="mt-6">
           <v-timeline-item
             v-for="(goal, i) in goals"
@@ -74,7 +84,7 @@
           skills: [
             { name: 'Composing web pages', done: true },
             { name: 'Semantic HTML', done: true },
-            { name: 'Forms and validations', done: false },
+            { name: 'Forms and validations - 2022', done: false },
             { name: 'Conventions and best practices', done: true },
             { name: 'Accessibility', done: true },
             { name: 'SEO', done: true },
@@ -98,7 +108,7 @@
           skills: [
             { name: 'Syntax and basic constructs', done: true },
             { name: 'DOM manipulation', done: false },
-            { name: 'Fetch API / Ajax (XHR)', done: false },
+            { name: 'Fetch API / Ajax (XHR) - 2022', done: false },
             { name: 'ES6+ and modular JavaScript', done: false },
             { name: 'Hoisting, Event bubbling, Scope, Protype, Shadow DOM, Strict', done: false },
           ]
