@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        Goals 2022:
+        Goals 2022 (timeline to be added):
         <ul>
           <li>Forms and validations</li> <!-- on roadmap -->
           <li>Vue Store (State management using Vuex)</li>
